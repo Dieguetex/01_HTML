@@ -1,4 +1,12 @@
 h1 {color: cornflowerblue;}
-.marron {color: brown;}
-.verde { color: chartreuse;}
+div {background-color: khaki;}
+h2 {color: brown;}
+
+/*.marron {color: brown;}
+.verde { color: chartreuse;}*/
+.item {font-size: 1.5rem;}
+
 #primero {color: blueviolet;}
+
+
+/*comentario en CSS*/
