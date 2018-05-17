@@ -1,3 +1,13 @@
+/*Estilos básicos después de aplicar reset.css*/
+/*h1 {font-size: 3rem;
+    magin-top: 1rem:
+    margin-bottom: 1rem
+}...*/
+
+.menu {
+    list-style: none;
+} /*Quitar los puntos a las listas de mierda que son to feas JODER QUE PUTO FEAS SON COÑO*/
+
 h1 {color: cornflowerblue;}
 /*div {background-color: khaki;}*/
 h2 {color: brown;}
