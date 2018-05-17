@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="">
+    <title>Bloques HTML</title>
+    <style>
+        .separado {
+            padding-left: 5rem;
+        }
+        .h2 {
+            display: block;
+            font-size: 1.5rem;
+        }
+        .footer {
+            border-top: 2px solid coral;
+            margin-top: 1rem;
+            padding-top: 1rem;
+        }
+        .vertebrados {
+            list-style: decimal;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Título entero de cara al SEO dividido en 2 partes -->
+        <h1>Introducción al HTML.<span class="h2">Uso de bloques en HTML</span></h1>
+
+        <!-- Título solamente el h1 de cara al SEO dividido en 2 partes -->
+        <h1>Introducción al HTML</h1>
+        <p class="h2">Uso de bloques en HTML</p>
+    </header>
+
+    <nav>  </nav>
+
+    <hr> <!--size=="4px" No se suele usar, ni el hr ni la etiqueta size--> 
+
+    <main>
+
+        <!-- Tipos de párrafos -->
+
+        <article>
+            <header><h3>Tipos de párrafos</h3></header>
+                <pre>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Numquam asperiores porro nulla libero, voluptatem sit aliquid,
+                    totam nihil reprehenderit earum tempore autem est inventore velit,
+                    distinctio blanditiis temporibus enim dolor.</pre> 
+                    <p>Quasi <span class="separado">facilis</span> repudiandae laudantium excepturi, officia possimus<br>
+                    necessitatibus at? Quo tempore quod qui? Dicta pariatur <br>
+                    blanditiis nihil assumenda doloribus deserunt optio magni illo<br>
+                    non. Laborum sapiente ab quisquam facere? Ipsum, adipisci.</p>
+                    <p>Commodi sit corrupti blanditiis voluptates possimus ab aliquid dolore animi cumque sint, ipsa ipsam perferendis perspiciatis quae ullam nulla qui nihil exercitationem laborum assumenda quas natus facilis expedita. Natus, odio?</p>
+                    <p>Officia illo id excepturi. At doloribus quod ullam ipsa alias tempora cumque! Tempore voluptatum libero ipsum ipsam nemo recusandae tenetur impedit commodi consequatur magni fuga, dignissimos expedita doloribus officiis accusamus.</p>             
+        </article>
+
+        <!-- Listas -->
+        
+        <article>
+            <h2>Uso de listas</h2>
+            <h3>Tipos de vertebrados</h3>
+            <ol class="vertebrados">
+                <li>Peces</li>
+                <li>Reptiles</li>
+                    <ol>
+                        <li>Tortugas</li>
+                        <li>Cocodrilos</li>
+                        <li>Serpientes</li>
+                        <li>Lagartos</li>
+                    </ol>
+                <li>Aves
+                    <ul>
+                        <li>Rapaces</li>
+                        <li>Pájaros</li>
+                    </ul>
+                </li>
+                <li>Mamíferos</li>
+                
+            </ol>
+            <h3>Definiciones</h3>
+            <dl>
+                <dt>HTML:</dt>
+                <dd>lenguajen de marcas</dd>
+                <dt>CSS:</dt>
+                <dd>lenguaje de estilos</dd>
+                <dt>JS:</dt>
+                <dd>lenguaje de scripts</dd> 
+            </dl>
+        </article>
+
+        <!-- Desplegables -->
+
+        <article>
+            <h2>Desplegables</h2>
+            <details>
+                <summary>Diseño web</summary>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, soluta. Nisi culpa incidunt numquam, voluptatum reiciendis unde tenetur aspernatur, cupiditate praesentium necessitatibus non libero enim optio quia laboriosam impedit aperiam?</p>
+            </details>
+        </article>
+    </main>
+    
+    <aside></aside>
+    
+    <footer class="footer">
+        <adress>
+            Diego Pérez - Diegopmansilla@gmail.com
+            <p>Pa k kieres saber eso JAJA SALUDOS</p>
+        </adress>
+    </footer>
+
+</body>
+</html>
