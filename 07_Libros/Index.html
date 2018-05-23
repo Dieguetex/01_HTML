@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliografía</title>
+    <style>
+        .titulo {
+            color: brown
+        }
+
+        .marron {
+            color: brown
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bibliografía</h1>
+    </header>
+
+    <article>
+        <h2>Libros</h2>
+        <!-- Usamos class para el metadata. Tenemos que tener en cuenta si vamos a añadir más metadatos iguales en el futuro -->
+        <ul>
+            <li class="titulo">El Señor de los Anillos</li>
+            <li class="tit_orig">The Lord of the Rings</li>
+            <li class="fecha_orig">1954</li>
+            <li class="autor">J. R. R. Tolkien</li>
+            <li class="edit_esp">Minotauro</li>
+            <li class="fecha_esp">1980</li>
+            <li class="descrip">Novela de fantasía épica escrita por el filólogo y escritor británico.</li>
+        </ul>
+
+        <!-- Ejemplos de microdatos, estructurados por un estandar universal de schema.org -->
+        <ul itemscope itemtype="http://schema.org/Book" itemid="1">
+
+            <li itemprop="translationOfWork">
+                <span itemscope itemtype="http://schema.org/creativeWork">
+                    <span itemprop="name" class="marron">Fundación</span>
+                </span>
+            </li>
+
+            <li itemprop="name">Foundation</li>
+
+            <li itemprop="translationOfWork">
+                    <span itemscope itemtype="http://schema.org/CreativeWork" itemid="01">Edicion Inglesa: 
+                        <span itemprop="datePublished">1951</span>
+                    </span>
+            </li>
+
+            <li itemprop="author">
+                <span itemscope itemtype="http://schema.org/person">
+                    <span itemprop="givenName">Isaac</span>
+                    <span itemprop="familyName">Asimov</span>
+                </span>
+            </li>
+
+            <li itemprop="translationOfWork">
+                <p itemscope itemtype="http://schema.org/CreativeWork" itemid="01">Edicion española: 
+                    <span itemprop="publisher">Cenit</span>, 
+                    <span itemprop="datePublished">1951</span>
+                </p>
+            </li>
+
+            <li itemprop="keywords">Espacio, Ciencia Ficcion</li>
+            <li itemprop="description">Fundación es el primer libro de la Primera Trilogía de la Fundación.</li>
+        </ul>
+    </article>
+
+    <aside>
+
+        <!-- Ejemplo de microformato de calendario -->
+        <h2>Noticias</h2>
+        <p class="vevent">
+            <span class="summary">El sitio microformats.org organiza</span> en fecha
+            <span class="dtstart">2018-06-20</span> la Conferencia Supernova en
+            <span class="location">San Francisco, CA, USA</span>.
+        </p>
+
+    </aside>
+    <hr>
+    <footer>
+        <address>
+
+            <!-- Ejemplo de microformato de tarjeta de datos personales -->
+            <div id="hcard-Diego-Pérez" class="vcard">
+                <div class="org">CFTIC</div>
+                <!-- <div hidden> -->
+                <span class="fn">Diego Pérez</span>
+                <a class="email" href="mailto:Diegopmansilla@gmail.com">Diegopmansilla@gmail.com</a>
+                <div class="adr">
+                    <div class="street-address">Av. de las Arcas del Agua</div>
+                    <span class="locality">Getafe</span>
+                    ,
+                    <span class="region">Madrid</span>
+                    ,
+                    <span class="postal-code">28905</span>
+
+                    <span class="country-name">Spain</span>
+                </div>
+            </div>
+
+        </address>
+        <p>&copy; CFTIC Certificado de profesionalidad - 2018</p>
+        <p>
+    </footer>
+</body>
+
+</html>
