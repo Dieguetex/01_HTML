@@ -1,0 +1,36 @@
+/* Selector descendiente de padre art1 (Más genérico) */
+.art1 h3{
+    color: blue
+}
+
+/* Selector hijo de padre art1 */
+.art1>h3{
+    color: blue
+}
+
+/* Selector individual */
+h3 {
+    color: blue;
+}
+
+/* Selector clase normal */
+.verde {
+    text-decoration: underline
+}
+
+/* Selector clase especificada en los p */
+p.verde {
+    color: lime
+}
+
+/* Selector clase especificada en los h2 */
+h2.verde {
+    color: darkgreen
+}
+
+/*  Selectores agrupados */
+h3, .verde {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 900;
+}

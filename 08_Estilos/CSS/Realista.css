@@ -1,0 +1,56 @@
+nav ul {
+    list-style: none;
+    
+}
+
+/* Selector de hijos aplicado en caso de que haya mas li dentro de nav */
+nav>ul>li {
+    display: inline-block
+}
+
+nav a {
+    text-decoration: none;
+    color: maroon;
+    padding: 2rem;
+}
+
+body {
+    background-color: bisque
+}
+
+main p {
+    width: 15%;
+    float: left;
+}
+
+/*  alt gr + 4 = lo de la ñ -> para cualquier hermano */
+main h2~p {
+    background-color: rgb(98, 80, 255);
+}
+
+ /* + -> Para los hermanos pegados */
+main h2+p {
+    background-color: rgb(98, 80, 255);
+}
+
+footer {
+    clear:both;
+}
+
+/* Selector descendiente de padre footer */
+footer p {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    background-color: aquamarine;
+}
+
+/*  ANIDAMIENTO QUE NO SE PUEDE USAR
+
+footer {
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+      }  
+  }
+*/
+
