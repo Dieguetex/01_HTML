@@ -21,6 +21,7 @@ body {
 main p {
     width: 15%;
     float: left;
+    margin-right: 2rem;
 }
 
 /*  alt gr + 4 = lo de la ñ -> para cualquier hermano */
@@ -31,6 +32,16 @@ main h2~p {
  /* + -> Para los hermanos pegados */
 main h2+p {
     background-color: rgb(98, 80, 255);
+}
+
+/* selector de atributos */
+main [title="Cicerón"] {
+    background-color: cornflowerblue
+}
+
+/* Selector de atributos descendiente */
+main p[title="Virgilio"] {
+    background-color: cyan
 }
 
 footer {

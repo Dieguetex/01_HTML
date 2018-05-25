@@ -4,52 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Realista</title>
-    <link rel="stylesheet" href="./CSS/Realista.css">
+    <title>Especificidad</title>
+    <link rel="stylesheet" href="./CSS/Espe.css">
 </head>
 
 <body>
     <header>
-        <h1>Uso de selectores</h1>
+        <h1 class="principal">Uso de selectores y especificidad</h1>
     </header>
 
-
-    <nav>
-        <ul>
-            <li>
-                <a href="#">Opcion 1</a>
-            </li>
-            <li>
-                <a href="#">Opcion 2</a>
-            </li>
-            <li>
-                <a href="#">Opcion 3</a>
-            </li>
-            <li>
-                <a href="#">Opcion 4</a>
-            </li>
-            <li>
-                <a href="#">Opcion 5</a>
-            </li>
-        </ul>
-    </nav>
     <main>
+
         <article>
-            <ul>
-                <li>Algo</li>
-                <li>Algo</li>
-                <li>Algo</li>
-                <li>Algo</li>
-            </ul>
-        </article>
-        <article>
-            <p>Lorem ipsum
-                <a href="algo">dolor</a> sit amet consectetur adipisicing elit. Minima ex, repudiandae eos possimus accusantium et nulla
+            <h2>Título</h2>
+            <p id="uno" class="principal">Lorem ipsum
+                <a href="algo">dolor</a><span> amet consectetur </span>adipisicing elit. Minima ex, repudiandae eos possimus accusantium et nulla
                 at dignissimos neque sint. Deserunt voluptates ducimus nostrum vero a natus et, impedit non?
             </p>
             <p title="Cicerón">Perspiciatis iste, unde nisi quo quam minus tenetur fugiat sit quos eos aliquam, hic culpa odio eveniet voluptatibus
                 laboriosam doloribus! Ab earum, rem libero quas sint explicabo. Provident, unde quasi?</p>
-            <p class="azul" title="Virgilio">Eos, deserunt velit accusantium dignissimos ipsum recusandae officia sint quas dolorem consectetur, provident
+            <p class="azul" title="Virgilio">
+                    <q title="Virgilio">quisquam aut labore deleniti pariatur?</q>
+                Eos, deserunt velit accusantium dignissimos ipsum recusandae officia sint quas dolorem consectetur, provident
                 eius nisi ab doloremque atque inventore reiciendis illum perferendis nobis iste reprehenderit alias magnam?
                 Assumenda, quidem cumque?</p>
             <p title="Cireneo">Porro recusandae quidem aspernatur deserunt corporis voluptate consequuntur laborum, modi impedit sint fuga,
@@ -68,7 +44,7 @@
             <address>
                 Diego Pérez
             </address>
-            <p>
+            <p class="principal">
                 <small>&copy;CFTIC-2018</small>
             </p>
         </div>
