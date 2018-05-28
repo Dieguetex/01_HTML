@@ -1,0 +1,15 @@
+:root{
+    --color-fondo: rgb(89, 114, 97);
+    --color-texto: rgb(239, 236, 202);
+    --aire-basico: 1rem;
+
+}
+
+header {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+
+}
+header h1 {
+    padding: calc(var(--aire-basico)*2);
+}
