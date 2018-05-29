@@ -1,0 +1,36 @@
+th, td {
+    padding: 0.8rem 2rem; 
+}
+
+th {
+    background-color: darkslategray;
+    color: aliceblue;
+
+}
+
+td {
+    background-color: burlywood;
+}
+
+/*** la tabla se abre cuando ponemos el ratón sobre ella ***/
+table.destinos:hover {
+    border-spacing: 0.5rem;
+}
+
+ /*** Ocultar celdas vacías ***/
+table.destinos td {
+    border-collapse: collapse
+}
+
+table.destinos {
+    empty-cells: hide
+}
+
+table.destinos td:after {
+    content: "%"
+}
+
+/*** Pintar las celdas de las filas impares ***/
+table.destinos tr:nth-child(odd) td {
+    background-color: palegreen;
+}

@@ -25,18 +25,17 @@ time, mark, audio, video {
     background:transparent;
 }
 
-
 body {
     line-height:1;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
-    display:block;
-}
-
 nav ul {
     list-style:none;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
 }
 
 blockquote, q {
@@ -55,6 +54,7 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+  
 }
 
 h1, h2, h3, h4, h5, h6, strong {
