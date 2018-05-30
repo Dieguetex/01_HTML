@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multimedia</title>
+    <link rel="stylesheet" href="./CSS/Style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Multimedia en la web</h1>
+    </header>
+    <div>
+        <h2>Ejemplo de IMG</h2>
+        <img src="./Assets/gran dragon mitologia.jpg" alt="">
+
+        <h2>Ejemplo de object</h2>
+        <object data="./Assets/2CELLOS - Thunderstruck [OFFICIAL VIDEO].mp4" type=""></object>
+
+        <h2>Ejemplo de embed</h2>
+        <embed src="./Assets/2CELLOS - Thunderstruck [OFFICIAL VIDEO].mp4" type="">
+        <!-- type="application/vnd.adobe.flash.movie" -->
+
+        <h2>ejemplo de iframe</h2>
+        <iframe src="./Assets/gran dragon mitologia.jpg" frameborder="0"></iframe>
+
+        <h2>Ejemplo de iframe de la comunidad de madrid</h2>
+        <iframe class="cam" src="http://www.madrid.org/cs/Satellite?pagename=ComunidadMadrid/Home" frameborder="0"></iframe>
+
+        <h2>Ejemplo de iframe de youtube</h2>
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/mwRSI1kS6So" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+        <h2>Iframe de video propio</h2>
+        <iframe src="./assets/2CELLOS - Thunderstruck [OFFICIAL VIDEO].mp4" frameborder="0"></iframe>
+
+        <h2>Etiqueta Video de video propio</h2>
+        <video controls width="600px" src="./assets/2CELLOS - Thunderstruck [OFFICIAL VIDEO].mp4" type="video/mp4"></video>
+
+        <!-- en el caso de que uno falle muestra el otro> -->
+        <h2>Etiqueta video y etiqueta source</h2>
+        <video controls>
+            <source src="./assets/2CELLOS - Thunderstruck [OFFICIAL VIDEO].mp4" type="video/mp4">
+            <source src="/assets/2CELLOS - Thunderstruck [OFFICIAL VIDEO].webm" type="video/webm">
+        </video>
+
+    </div>
+
+</body>
+
+</html>
